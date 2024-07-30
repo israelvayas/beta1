@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaboración en Tiempo Real</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Incluye la biblioteca de Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+</head>
+<body>
+    <h1>Colaboración en Tiempo Real</h1>
+    <div id="chat">
+        <ul id="mensajes"></ul>
+        <form id="formularioChat">
+            <input id="mensajeInput" autocomplete="off" placeholder="Escribe un mensaje..." /><button>Enviar</button>
+        </form>
+    </div>
+    <script src="js/firebaseConfig.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
